@@ -1,0 +1,334 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+ul, li {
+  list-style: none; }
+
+.root {
+  width: 1349px;
+  height: 770px;
+  background: url(../img/bg.png) no-repeat 100% 100%;
+  margin: 0 auto; }
+  .root .top {
+    width: 1292px;
+    height: 64px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-bottom: 2px solid #396e95;
+    display: flex;
+    justify-content: space-between; }
+    .root .top .zuo {
+      width: 800px;
+      height: 64px;
+      display: flex; }
+      .root .top .zuo img {
+        width: 106px;
+        height: 28px;
+        margin-top: 20px; }
+      .root .top .zuo .text1 {
+        font-size: 26px;
+        font-weight: 500;
+        margin-top: 15px;
+        margin-left: 4px;
+        color: white; }
+    .root .top .you {
+      width: 100px;
+      height: 64px; }
+      .root .top .you .time, .root .top .you .date {
+        font-size: 14px;
+        color: white;
+        float: right; }
+      .root .top .you .time {
+        margin-right: 20px;
+        margin-top: 10px; }
+  .root .bottom {
+    width: 1292px;
+    height: calc(755px - 64px);
+    margin: 0 auto; }
+    .root .bottom .left, .root .bottom .center, .root .bottom .right {
+      float: left; }
+    .root .bottom .left {
+      width: 323px;
+      height: calc(755px - 64px);
+      overflow: hidden; }
+      .root .bottom .left .Ztop {
+        width: 323px;
+        height: 126px;
+        background: url(../img/today-income.png) no-repeat center center/100% 100%;
+        margin-top: 35px;
+        position: relative; }
+        .root .bottom .left .Ztop .title1 {
+          font-size: 12px;
+          color: white;
+          position: absolute;
+          top: 0;
+          left: 0; }
+        .root .bottom .left .Ztop .LEFT {
+          width: 210px;
+          height: 112px;
+          position: absolute;
+          top: 14px;
+          left: 0; }
+          .root .bottom .left .Ztop .LEFT .title2 {
+            font-size: 36px;
+            font-weight: 900;
+            line-height: 112px;
+            text-align: center;
+            color: #fff55a; }
+        .root .bottom .left .Ztop .RIGHT {
+          width: 113px;
+          height: 112px;
+          position: absolute;
+          top: 14px;
+          right: 0; }
+          .root .bottom .left .Ztop .RIGHT .title3 {
+            font-size: 14px;
+            text-align: center;
+            color: white;
+            margin-top: 10px; }
+          .root .bottom .left .Ztop .RIGHT img {
+            width: 32px;
+            height: 20px;
+            margin: 5px 40px; }
+          .root .bottom .left .Ztop .RIGHT .title4 {
+            font-size: 14px;
+            text-align: center;
+            color: #ff5e5e; }
+      .root .bottom .left .Zcenter {
+        width: 323px;
+        height: 238px;
+        background: url(../img/stop-length.png) no-repeat center center/100% 100%;
+        margin: 17px 0px; }
+        .root .bottom .left .Zcenter .text2 {
+          width: 323px;
+          height: 56px;
+          text-align: center;
+          line-height: 56px;
+          font-size: 14px;
+          color: #c5e7ff; }
+        .root .bottom .left .Zcenter .biao1box {
+          width: 323px;
+          height: 170px; }
+      .root .bottom .left .Zbottom {
+        width: 323px;
+        height: 266px;
+        background: url(../img/left-right-bg.png) no-repeat center center/100% 94%;
+        position: relative; }
+        .root .bottom .left .Zbottom .text2 {
+          width: 323px;
+          height: 56px;
+          text-align: center;
+          line-height: 56px;
+          font-size: 14px;
+          color: #c5e7ff; }
+        .root .bottom .left .Zbottom .bigbox1 {
+          width: 323px;
+          height: 210px;
+          padding: 0 20px;
+          box-sizing: border-box;
+          overflow: hidden; }
+          .root .bottom .left .Zbottom .bigbox1 .box1 {
+            width: 275px;
+            height: 377px;
+            transition: all 0.1s;
+            position: relative;
+            top: 0; }
+            .root .bottom .left .Zbottom .bigbox1 .box1 .red {
+              width: 275px;
+              height: 39px;
+              padding: 5px 0;
+              box-sizing: border-box;
+              font-size: 12px;
+              color: #c5e7ff; }
+              .root .bottom .left .Zbottom .bigbox1 .box1 .red .top1 {
+                width: 275px;
+                height: 19.5px; }
+                .root .bottom .left .Zbottom .bigbox1 .box1 .red .top1 .person {
+                  width: 150px;
+                  height: 19.5px;
+                  float: left;
+                  border: 1px solid #ff5e5e;
+                  border-radius: 10px;
+                  box-sizing: border-box; }
+                  .root .bottom .left .Zbottom .bigbox1 .box1 .red .top1 .person span:nth-child(1) {
+                    background: #ff5e5e;
+                    border-radius: 10px;
+                    padding: 2px;
+                    box-sizing: border-box;
+                    color: black; }
+                  .root .bottom .left .Zbottom .bigbox1 .box1 .red .top1 .person span:nth-child(2) {
+                    padding: 2px;
+                    box-sizing: border-box; }
+                .root .bottom .left .Zbottom .bigbox1 .box1 .red .top1 .shijian {
+                  width: 31px;
+                  height: 19.5px;
+                  float: right; }
+              .root .bottom .left .Zbottom .bigbox1 .box1 .red .bottom1 {
+                width: 275px;
+                height: 19.5px;
+                display: flex;
+                justify-content: space-between; }
+            .root .bottom .left .Zbottom .bigbox1 .box1 .blue {
+              width: 275px;
+              height: 39px;
+              padding: 5px 0;
+              box-sizing: border-box;
+              font-size: 12px;
+              color: #26f5d5; }
+              .root .bottom .left .Zbottom .bigbox1 .box1 .blue .top1 {
+                width: 275px;
+                height: 19.5px; }
+                .root .bottom .left .Zbottom .bigbox1 .box1 .blue .top1 .person {
+                  width: 150px;
+                  height: 19.5px;
+                  float: left;
+                  border: 1px solid #26f5d5;
+                  border-radius: 10px;
+                  box-sizing: border-box; }
+                  .root .bottom .left .Zbottom .bigbox1 .box1 .blue .top1 .person span:nth-child(1) {
+                    color: black;
+                    background: #26f5d5;
+                    border-radius: 10px;
+                    padding: 2px;
+                    box-sizing: border-box; }
+                  .root .bottom .left .Zbottom .bigbox1 .box1 .blue .top1 .person span:nth-child(2) {
+                    padding: 2px;
+                    box-sizing: border-box; }
+                .root .bottom .left .Zbottom .bigbox1 .box1 .blue .top1 .shijian {
+                  width: 31px;
+                  height: 19.5px;
+                  float: right; }
+              .root .bottom .left .Zbottom .bigbox1 .box1 .blue .bottom1 {
+                width: 275px;
+                height: 19.5px;
+                display: flex;
+                justify-content: space-between; }
+    .root .bottom .center {
+      width: 606px;
+      height: calc(755px - 64px);
+      margin: 0px 20px; }
+      .root .bottom .center .Ctop {
+        margin-top: 35px;
+        width: 606px;
+        height: 445px; }
+      .root .bottom .center .Cbottom {
+        width: 604px;
+        height: 210px;
+        background: url(../img/stop-photo.png) no-repeat center center/100% 100%;
+        overflow: hidden; }
+        .root .bottom .center .Cbottom ul {
+          width: 1173px;
+          height: 210px;
+          font-size: 12px;
+          color: #26f5d5;
+          position: relative;
+          left: 0; }
+          .root .bottom .center .Cbottom ul li {
+            width: 146.625px;
+            height: 210px;
+            padding: 0 5px;
+            float: left;
+            box-sizing: border-box; }
+            .root .bottom .center .Cbottom ul li .chetime {
+              width: 146.625px;
+              height: 28px;
+              text-align: center;
+              line-height: 28px; }
+            .root .bottom .center .Cbottom ul li img {
+              width: 140px;
+              height: 140px;
+              margin-left: -1px; }
+            .root .bottom .center .Cbottom ul li .wenzi3 {
+              text-align: center;
+              line-height: 18px; }
+            .root .bottom .center .Cbottom ul li .wenzi4 {
+              text-align: center;
+              line-height: 18px; }
+    .root .bottom .right {
+      width: 323px;
+      height: calc(755px - 64px); }
+      .root .bottom .right .Ytop {
+        width: 323px;
+        height: 126px;
+        margin-top: 35px; }
+        .root .bottom .right .Ytop ul {
+          width: 323px;
+          height: 126px;
+          display: flex; }
+          .root .bottom .right .Ytop ul li {
+            width: 30%;
+            height: 126px;
+            background: url(../img/stop-number-bg.png) no-repeat center center; }
+            .root .bottom .right .Ytop ul li:nth-child(2) {
+              margin: 0 5%; }
+            .root .bottom .right .Ytop ul li .shuzi1 {
+              margin-top: 40px;
+              text-align: center;
+              font-size: 20px;
+              font-weight: 500;
+              color: #26f5d5; }
+            .root .bottom .right .Ytop ul li .text3 {
+              text-align: center;
+              font-size: 12px;
+              color: #c5e7ff; }
+      .root .bottom .right .Ycenter {
+        width: 323px;
+        height: 238px;
+        background: url(../img/stop-length.png) no-repeat center center/100% 100%;
+        margin: 18px 0px; }
+        .root .bottom .right .Ycenter .text2 {
+          width: 323px;
+          height: 56px;
+          text-align: center;
+          line-height: 56px;
+          font-size: 14px;
+          color: #c5e7ff; }
+        .root .bottom .right .Ycenter .biao2box {
+          width: 160px;
+          height: 200px;
+          float: left;
+          margin-top: -20px; }
+        .root .bottom .right .Ycenter .biao3box {
+          width: 160px;
+          height: 200px;
+          float: right;
+          margin-top: -20px; }
+      .root .bottom .right .Ybottom {
+        width: 323px;
+        height: 256px;
+        background: url(../img/stop-length.png) no-repeat center center/100% 100%; }
+        .root .bottom .right .Ybottom .text2 {
+          width: 323px;
+          height: 56px;
+          text-align: center;
+          line-height: 56px;
+          font-size: 14px;
+          color: #c5e7ff; }
+        .root .bottom .right .Ybottom .box2 {
+          width: 323px;
+          height: 200px;
+          overflow: hidden; }
+          .root .bottom .right .Ybottom .box2 ul {
+            width: 276px;
+            height: 365px;
+            color: white;
+            margin: 0 auto;
+            position: relative;
+            top: 0; }
+            .root .bottom .right .Ybottom .box2 ul li {
+              width: 276px;
+              height: 60.55px;
+              border-bottom: 1px dashed #fff;
+              border-top: 1px dashed #fff;
+              box-sizing: border-box; }
+              .root .bottom .right .Ybottom .box2 ul li .shang {
+                font-size: 14px;
+                font-weight: 300;
+                margin-top: 10px; }
+              .root .bottom .right .Ybottom .box2 ul li .xia {
+                font-size: 12px;
+                display: flex;
+                justify-content: space-between; }
+
+/*# sourceMappingURL=index.css.map */
